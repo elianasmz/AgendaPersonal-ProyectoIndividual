@@ -1,0 +1,53 @@
+.my-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.my-table th, .my-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;  
+}
+    
+.my-table th {
+    background-color:rosybrown;
+    text-align: center; 
+}
+    
+.table-header {
+    background-color: rosybrown; 
+    text-align: center; 
+  }
+  
+.my-table th:first-child, .my-table td:first-child {
+  border-left: none;
+}
+  
+  .my-table th:last-child, .my-table td:last-child {
+    border-right: none; 
+  }
+  
+  .my-table tr:first-child th, .my-table tr:first-child td {
+    border-top: none; 
+  }
+  
+  .my-table tr:last-child th, .my-table tr:last-child td {
+    border-bottom: none; 
+  }
+ 
+  .my-table td, .my-table th {
+    vertical-align: top; 
+  }
+.my-table button {
+    font-size: 16px; 
+    display: block; 
+    margin: auto; 
+}
+  .button {
+    background-color: #EA9999; 
+    color: #000000; 
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

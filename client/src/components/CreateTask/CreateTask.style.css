@@ -1,0 +1,14 @@
+.pd-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 30px;
+}
+.button-submit{
+    margin:10px;
+
+}

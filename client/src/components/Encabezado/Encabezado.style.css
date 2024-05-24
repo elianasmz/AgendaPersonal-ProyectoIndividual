@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center1{
+    justify-content:flex-start;
+    padding: 20px;
+    text-align: start;
+    font-size: 30px;
+}
+.link_1{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    color:#000000;
+    text-decoration: none;
+}
+.container{
+    background-color:rosybrown;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+
+}

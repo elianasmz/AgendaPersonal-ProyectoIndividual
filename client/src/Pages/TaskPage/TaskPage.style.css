@@ -1,0 +1,71 @@
+/* LoginPage.style.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.container-2{
+    background-color: #ffffff;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-collapse: collapse;
+}
+.sub-content {
+    vertical-align: top;
+    align-items: center;
+    
+    margin: 60px;
+    display: inline-block;
+    border: 2px solid #000;
+    width: 700px; /* Define el ancho de cada columna */
+}
+.sub-content1 {
+    vertical-align: top;
+    align-items: center;
+    height: 250px;
+    margin: 60px;
+    display: inline-block;
+    border: 2px solid #000;
+    width: 350px; 
+    padding: 0 5px; 
+}
+
+.other-button1,.other-button2{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin:10px;
+}
+.other-button1{
+    background-color: lightgreen;
+}
+.other-button2{
+    background-color: lightcoral;
+}
+.completed-task {
+    text-decoration: line-through;
+}
+.th-1{
+    height: 50px;
+    width: 500px;
+    background-color: rosybrown; 
+    text-align: center; 
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+}
